@@ -1,0 +1,4 @@
+{
+    "command": "source venv/bin/activate && pip install -r requirements.txt",
+    "working_directory": "/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_backend_workspace/game_backend"
+}

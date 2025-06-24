@@ -22,9 +22,1022 @@ chunk-6XEG6CM6.mjs   | -                |  23.02 kB |
 server.mjs           | server           |   1.39 kB | 
 main.server.mjs      | main.server      | 800 bytes | 
 
-Application bundle generation complete. [2.684 seconds]
+Application bundle generation complete. [2.145 seconds]
 
 Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
+Request for HTML file "/preview.html" was received but no asset found. Asset may be missing from build.
+Request for HTML file "/preview.html" was received but no asset found. Asset may be missing from build.
+Request for HTML file "/preview.html" was received but no asset found. Asset may be missing from build.
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  | 23.68 kB | 
+
+Application bundle generation complete. [0.307 seconds]
+
+Page reload sent to client(s).
+10:56:58 AM [vite] (client) ✨ new dependencies optimized: @angular/common/http
+10:56:58 AM [vite] (client) ✨ optimized dependencies changed. reloading
+Request for HTML file "/preview.html" was received but no asset found. Asset may be missing from build.
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.568 seconds]
+
+▲ [WARNING] TS-998113: TictactoeComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:8:26:
+      8 │   imports: [RouterOutlet, TictactoeComponent],
+        ╵                           ~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:10:26:
+      10 │     <div class="ttt-row" *ngFor="let row of board; index as rIdx">
+         ╵                           ~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:12:9:
+      12 │         *ngFor="let cell of row; index as cIdx"
+         ╵          ~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:21:26:
+      21 │   <div class="ttt-error" *ngIf="error">{{ error }}</div>
+         ╵                           ~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:22:27:
+      22 │   <div class="ttt-footer" *ngIf="status !== 'in_progress' && status">
+         ╵                            ~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'div'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:8:26:
+      8 │   <div class="ttt-status" [ngClass]="status">{{ statusMessage }}</div>
+        ╵                           ~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'div'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:9:25:
+      9 │ ...iv class="ttt-board" [ngClass]="{ 'disabled': isBoardDisabled() }">
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'button'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:16:8:
+      16 │         [ngClass]="cell">
+         ╵         ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'span'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:17:27:
+      17 │         <span class="mark" [ngClass]="cell">{{ cell }}</span>
+         ╵                            ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.292 seconds]
+
+▲ [WARNING] TS-998113: TictactoeComponent is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:8:26:
+      8 │   imports: [RouterOutlet, TictactoeComponent],
+        ╵                           ~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:10:26:
+      10 │     <div class="ttt-row" *ngFor="let row of board; index as rIdx">
+         ╵                           ~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:12:9:
+      12 │         *ngFor="let cell of row; index as cIdx"
+         ╵          ~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:21:26:
+      21 │   <div class="ttt-error" *ngIf="error">{{ error }}</div>
+         ╵                           ~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:22:27:
+      22 │   <div class="ttt-footer" *ngIf="status !== 'in_progress' && status">
+         ╵                            ~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'div'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:8:26:
+      8 │   <div class="ttt-status" [ngClass]="status">{{ statusMessage }}</div>
+        ╵                           ~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'div'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:9:25:
+      9 │ ...iv class="ttt-board" [ngClass]="{ 'disabled': isBoardDisabled() }">
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'button'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:16:8:
+      16 │         [ngClass]="cell">
+         ╵         ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'span'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:17:27:
+      17 │         <span class="mark" [ngClass]="cell">{{ cell }}</span>
+         ╵                            ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.132 seconds]
+
+▲ [WARNING] TS-998113: RouterOutlet is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:8:12:
+      8 │   imports: [RouterOutlet, TictactoeComponent],
+        ╵             ~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:10:26:
+      10 │     <div class="ttt-row" *ngFor="let row of board; index as rIdx">
+         ╵                           ~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:12:9:
+      12 │         *ngFor="let cell of row; index as cIdx"
+         ╵          ~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:21:26:
+      21 │   <div class="ttt-error" *ngIf="error">{{ error }}</div>
+         ╵                           ~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:22:27:
+      22 │   <div class="ttt-footer" *ngIf="status !== 'in_progress' && status">
+         ╵                            ~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'div'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:8:26:
+      8 │   <div class="ttt-status" [ngClass]="status">{{ statusMessage }}</div>
+        ╵                           ~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'div'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:9:25:
+      9 │ ...iv class="ttt-board" [ngClass]="{ 'disabled': isBoardDisabled() }">
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'button'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:16:8:
+      16 │         [ngClass]="cell">
+         ╵         ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'span'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:17:27:
+      17 │         <span class="mark" [ngClass]="cell">{{ cell }}</span>
+         ╵                            ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.165 seconds]
+
+▲ [WARNING] TS-998113: RouterOutlet is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:8:12:
+      8 │   imports: [RouterOutlet, TictactoeComponent],
+        ╵             ~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:10:26:
+      10 │     <div class="ttt-row" *ngFor="let row of board; index as rIdx">
+         ╵                           ~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:12:9:
+      12 │         *ngFor="let cell of row; index as cIdx"
+         ╵          ~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:21:26:
+      21 │   <div class="ttt-error" *ngIf="error">{{ error }}</div>
+         ╵                           ~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:22:27:
+      22 │   <div class="ttt-footer" *ngIf="status !== 'in_progress' && status">
+         ╵                            ~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'div'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:8:26:
+      8 │   <div class="ttt-status" [ngClass]="status">{{ statusMessage }}</div>
+        ╵                           ~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'div'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:9:25:
+      9 │ ...iv class="ttt-board" [ngClass]="{ 'disabled': isBoardDisabled() }">
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'button'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:16:8:
+      16 │         [ngClass]="cell">
+         ╵         ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'span'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:17:27:
+      17 │         <span class="mark" [ngClass]="cell">{{ cell }}</span>
+         ╵                            ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.069 seconds]
+
+▲ [WARNING] TS-998113: RouterOutlet is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:8:12:
+      8 │   imports: [RouterOutlet, TictactoeComponent],
+        ╵             ~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:10:26:
+      10 │     <div class="ttt-row" *ngFor="let row of board; index as rIdx">
+         ╵                           ~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:12:9:
+      12 │         *ngFor="let cell of row; index as cIdx"
+         ╵          ~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:21:26:
+      21 │   <div class="ttt-error" *ngIf="error">{{ error }}</div>
+         ╵                           ~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:22:27:
+      22 │   <div class="ttt-footer" *ngIf="status !== 'in_progress' && status">
+         ╵                            ~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'div'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:8:26:
+      8 │   <div class="ttt-status" [ngClass]="status">{{ statusMessage }}</div>
+        ╵                           ~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'div'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:9:25:
+      9 │ ...iv class="ttt-board" [ngClass]="{ 'disabled': isBoardDisabled() }">
+        ╵                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'button'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:16:8:
+      16 │         [ngClass]="cell">
+         ╵         ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8002: Can't bind to 'ngClass' since it isn't a known property of 'span'. [plugin angular-compiler]
+
+    src/app/components/tictactoe/tictactoe.component.html:17:27:
+      17 │         <span class="mark" [ngClass]="cell">{{ cell }}</span>
+         ╵                            ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component TictactoeComponent.
+
+    src/app/components/tictactoe/tictactoe.component.ts:6:15:
+      6 │   templateUrl: './tictactoe.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles     
+Initial chunk files  | Names            |  Raw size
+polyfills.js         | polyfills        |  90.20 kB | 
+main.js              | main             |  15.32 kB | 
+styles.css           | styles           |  95 bytes | 
+
+                     | Initial total    | 105.61 kB
+
+
+Server bundles      
+Initial chunk files  | Names            |  Raw size
+polyfills.server.mjs | polyfills.server | 572.91 kB | 
+chunk-TWTNK5RH.mjs   | -                |  14.66 kB | 
+server.mjs           | server           |   1.39 kB | 
+main.server.mjs      | main.server      | 800 bytes | 
+
+Application bundle generation complete. [0.451 seconds]
+
+▲ [WARNING] TS-998113: RouterOutlet is not used within the template of AppComponent [plugin angular-compiler]
+
+    src/app/app.component.ts:8:12:
+      8 │   imports: [RouterOutlet, TictactoeComponent],
+        ╵             ~~~~~~~~~~~~
+
+
+10:58:57 AM [vite] Internal server error: ɵgetOrCreateAngularServerApp is not a function
+      at /home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/node_modules/@angular/build/src/tools/vite/middlewares/ssr-middleware.js:30:38
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+10:58:57 AM [vite] Internal server error: ɵgetOrCreateAngularServerApp is not a function
+      at /home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/node_modules/@angular/build/src/tools/vite/middlewares/ssr-middleware.js:30:38
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+10:58:57 AM [vite] Internal server error: ɵgetOrCreateAngularServerApp is not a function
+      at /home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/node_modules/@angular/build/src/tools/vite/middlewares/ssr-middleware.js:30:38
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+10:58:57 AM [vite] Internal server error: ɵgetOrCreateAngularServerApp is not a function
+      at /home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/node_modules/@angular/build/src/tools/vite/middlewares/ssr-middleware.js:30:38
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+10:59:00 AM [vite] (ssr) ✨ new dependencies optimized: rxjs, rxjs/operators, @angular/common/http
+10:59:00 AM [vite] (ssr) ✨ optimized dependencies changed. reloading
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  15.27 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-NSV2CC2W.mjs  | -           |  14.61 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.360 seconds]
+
+10:59:03 AM [vite] Internal server error: ɵgetOrCreateAngularServerApp is not a function
+      at /home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/node_modules/@angular/build/src/tools/vite/middlewares/ssr-middleware.js:30:38
+Page reload sent to client(s).
+ERROR Error [NullInjectorError]: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+    at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+    at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [
+    '_TictactoeService',
+    '_TictactoeService',
+    '_HttpClient',
+    '_HttpClient'
+  ]
+}
+10:59:03 AM [vite] Internal server error: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+      at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+      at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+      at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+      at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+      at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+      at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23)
+ERROR Error [NullInjectorError]: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+    at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+    at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [
+    '_TictactoeService',
+    '_TictactoeService',
+    '_HttpClient',
+    '_HttpClient'
+  ]
+}
+10:59:03 AM [vite] Internal server error: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+      at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+      at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+      at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+      at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+      at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+      at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23)
+ERROR Error [NullInjectorError]: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+    at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+    at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [
+    '_TictactoeService',
+    '_TictactoeService',
+    '_HttpClient',
+    '_HttpClient'
+  ]
+}
+10:59:04 AM [vite] Internal server error: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+      at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+      at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+      at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+      at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+      at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+      at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23)
+ERROR Error [NullInjectorError]: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+    at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+    at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [
+    '_TictactoeService',
+    '_TictactoeService',
+    '_HttpClient',
+    '_HttpClient'
+  ]
+}
+10:59:04 AM [vite] Internal server error: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+      at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+      at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+      at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+      at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+      at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+      at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23)
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-P7E76TSP.mjs  | -           |  14.61 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.344 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-XSRSIJCJ.mjs  | -           |  14.61 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.213 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+
+No output file changes.
+
+Application bundle generation complete. [0.094 seconds]
+
+ERROR Error [NullInjectorError]: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+    at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+    at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [
+    '_TictactoeService',
+    '_TictactoeService',
+    '_HttpClient',
+    '_HttpClient'
+  ]
+}
+10:59:18 AM [vite] Internal server error: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+      at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+      at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+      at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+      at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+      at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+      at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23)
+ERROR Error [NullInjectorError]: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+    at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+    at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [
+    '_TictactoeService',
+    '_TictactoeService',
+    '_HttpClient',
+    '_HttpClient'
+  ]
+}
+10:59:18 AM [vite] Internal server error: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+      at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+      at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+      at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+      at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+      at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+      at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23)
+ERROR Error [NullInjectorError]: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+    at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+    at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [
+    '_TictactoeService',
+    '_TictactoeService',
+    '_HttpClient',
+    '_HttpClient'
+  ]
+}
+10:59:18 AM [vite] Internal server error: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+      at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+      at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+      at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+      at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+      at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+      at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23)
+ERROR Error [NullInjectorError]: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+    at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+    at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [
+    '_TictactoeService',
+    '_TictactoeService',
+    '_HttpClient',
+    '_HttpClient'
+  ]
+}
+10:59:19 AM [vite] Internal server error: R3InjectorError(Standalone[_AppComponent])[_TictactoeService -> _TictactoeService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+      at NullInjector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1751:21)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2098:27)
+      at injectInjectorOnly (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1484:41)
+      at Module.ɵɵinject (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1490:59)
+      at Object.TictactoeService_Factory (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/src/app/services/tictactoe.service.ts:19:30)
+      at eval (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2199:35)
+      at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:1356:5)
+      at R3Injector.hydrate (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2198:11)
+      at R3Injector.get (/home/kavia/workspace/code-generation/tictactoe-connect-68731-2267312d/game_frontend_workspace/game_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-UJWP7ZUT.js:2093:23)
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  15.48 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-BNOO2ABN.mjs  | -           |  14.78 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.201 seconds]
+
+Page reload sent to client(s).
+NG02801: Angular detected that `HttpClient` is not configured to use `fetch` APIs. It's strongly recommended to enable `fetch` for applications that use Server-Side Rendering for better performance and compatibility. To enable `fetch`, add the `withFetch()` to the `provideHttpClient()` call at the root of the application.
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-UKN3XGVZ.mjs  | -           |  14.95 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.152 seconds]
+
+Page reload sent to client(s).
+10:59:27 AM [vite] (client) ✨ new dependencies optimized: @angular/common, rxjs, rxjs/operators
+10:59:27 AM [vite] (client) ✨ optimized dependencies changed. reloading
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Browser bundles    
+Initial chunk files | Names       |  Raw size
+main.js             | main        |  15.48 kB | 
+
+
+Server bundles     
+Initial chunk files | Names       |  Raw size
+chunk-B4Q36G2W.mjs  | -           |  14.95 kB | 
+server.mjs          | server      |   1.39 kB | 
+main.server.mjs     | main.server | 800 bytes | 
+
+Application bundle generation complete. [0.324 seconds]
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+
+No output file changes.
+
+Application bundle generation complete. [0.101 seconds]
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.146 seconds]
+
+✘ [ERROR] TS2339: Property 'http' does not exist on type 'TictactoeService'. [plugin angular-compiler]
+
+    src/app/services/tictactoe.service.ts:26:16:
+      26 │     return this.http.post<GameState>(this.apiBase, {})
+         ╵                 ~~~~
+
+
+✘ [ERROR] TS2339: Property 'http' does not exist on type 'TictactoeService'. [plugin angular-compiler]
+
+    src/app/services/tictactoe.service.ts:32:16:
+      32 │     return this.http.post<GameState>(`${this.apiBase}/${gameId}/mo...
+         ╵                 ~~~~
+
+
+✘ [ERROR] TS2339: Property 'http' does not exist on type 'TictactoeService'. [plugin angular-compiler]
+
+    src/app/services/tictactoe.service.ts:38:16:
+      38 │     return this.http.get<GameState>(`${this.apiBase}/${gameId}`)
+         ╵                 ~~~~
+
+
+❯ Changes detected. Rebuilding...

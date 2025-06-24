@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { TictactoeComponent } from './components/tictactoe/tictactoe.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [TictactoeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

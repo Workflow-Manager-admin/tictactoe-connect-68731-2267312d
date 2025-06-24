@@ -1,0 +1,27 @@
+<div class="ttt-container">
+  <div class="ttt-header">
+    <h1 class="ttt-title">Tic Tac Toe</h1>
+    <button class="new-game-btn" (click)="newGame()" [disabled]="loading">
+      New Game
+    </button>
+  </div>
+  <div class="ttt-status" [ngClass]="status">{{ statusMessage }}</div>
+  <div class="ttt-board" [ngClass]="{ 'disabled': isBoardDisabled() }">
+    <div class="ttt-row" *ngFor="let row of board; index as rIdx">
+      <button
+        *ngFor="let cell of row; index as cIdx"
+        class="ttt-cell"
+        [disabled]="cell || isBoardDisabled()"
+        (click)="makeMove(rIdx, cIdx)"
+        [ngClass]="cell">
+        <span class="mark" [ngClass]="cell">{{ cell }}</span>
+      </button>
+    </div>
+  </div>
+  <div class="ttt-error" *ngIf="error">{{ error }}</div>
+  <div class="ttt-footer" *ngIf="status !== 'in_progress' && status">
+    <button class="new-game-btn-footer" (click)="newGame()" [disabled]="loading">
+      Play Again
+    </button>
+  </div>
+</div>
